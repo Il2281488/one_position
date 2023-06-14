@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'TTHoves';
+  src: local('TT Hoves Medium'), local('TT-Hoves-Medium'),
+      url('fonts/TTHoves-Medium/TTHoves-Medium.woff2') format('woff2'),
+      url('fonts/TTHoves-Medium/TTHoves-Medium.woff') format('woff'),
+      url('fonts/TTHoves-Medium/TTHoves-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTHoves';
+  src: local('TT Hoves Bold'), local('TT-Hoves-Bold'),
+      url('fonts/TTHoves-Bold/TTHoves-Bold.woff2') format('woff2'),
+      url('fonts/TTHoves-Bold/TTHoves-Bold.woff') format('woff'),
+      url('fonts/TTHoves-Bold/TTHoves-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('GilroyMedium'), local('Gilroy-Medium'),
+      url('fonts/Gilroy-Medium/Gilroy-Medium.woff2') format('woff2'),
+      url('fonts/Gilroy-Medium/Gilroy-Medium.woff') format('woff'),
+      url('fonts/Gilroy-Medium/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+$lightBlue: #8E88C1;
+$blue: #071341;
+
+
+body {
+	margin: 0;
+
+	font-family: 'Gilroy', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+
+	width: 100%;
+	// max-width: 1920px;
+}
+
+
+
+
+*,
+*:before ,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+}
